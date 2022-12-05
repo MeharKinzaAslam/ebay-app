@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- header navbar -->
+
+        <nav class="navbar">
+            <div class="navbar-options">
+                <span>Hi!
+                    <a href="#">Sign in</a>
+                    or
+                    <a href="#">register</a>
+                </span>
+                <span>Daily Deals</span>
+                <span>Help & contact</span>
+            </div>
+            <div class="navbar-options">
+                <span>Ship to</span>
+                <span>Ship Sell</span>
+
+                <span class="Watch-history" onmouseleave=" watchlisthidden()" onclick="myWatchlist()">Watch List <i
+                        class="fa fa-angle-down" aria-hidden="true"></i>
+
+                    <p id="watchlist">
+
+
+
+                    </p>
+                </span>
+
+
+                <span>
+
+                    <!--Ebay List On over -->
+                    <div class='select'>
+
+                        <p class='input'>My eBay</p>
+                        <input type='hidden' name='some_name_to_form' />
+                        <div class='hidden'>
+                            <p value='id_1'>Summary</p>
+                            <p value='id_2'>Recently Viewed</p>
+                            <p value='id_3'>Bid and Offers</p>
+                            <p value='id_4'>Watchlist</p>
+                            <p value='id_5'>Purchase History</p>
+                            <p value='id_6'>Buy Again</p>
+                            <p value='id_7'>Selling</p>
+                            <p value='id_8'>Saved Searches</p>
+                            <p value='id_9'>Saved Seller</p>
+
+                        </div>
+                    </div>
+                </span>
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+            </div>
+        </nav>
+
+        <!-- Header Logo  -->
+
+    </header>
+    <main>
+        <div class="header-logo">
+            <span class="logo">
+                <img src="ebay_PNG14.png" alt="">
+            </span>
+
+            <span class="shop-by">
+                <span>
+                    Shop by
+                    <br>
+                    category
+                </span>
+                <span>
+                    <i class="fa fa-angle-down fa-1x" aria-hidden="true"></i>
+                </span>
+                
+            </span>
+            
+
+            <div class="search">
+                <!-- <label for=""></label> -->
+                <input type="search" name="search" id="search" placeholder="Search for anything">
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <div class="all-category">
+                    <select class="select-category">
+                        <option>All Categories</option>
+                        <option>Antique</option>
+                        <option>Art</option>
+                        <option>Baby</option>
+                        <option>Book</option>
+                        <option>Business and Industry</option>
+                        <option>Camera and Photos</option>
+                        <option>Cell phones and Accessories</option>
+                        <option>Clothing , Shoes and Accessories</option>
+                        <option>Coins Paper Money</option>
+                        <option>All Categories</option>
+                        <option>Antique</option>
+                        <option>Art</option>
+                        <option>Baby</option>
+                        <option>Book</option>
+                        <option>Business and Industry</option>
+                        <option>Camera and Photos</option>
+                        <option>Cell phones and Accessories</option>
+                        <option>Clothing , Shoes and Accessories</option>
+                        <option>Coins Paper Money</option>
+                        <option>All Categories</option>
+                        <option>Antique</option>
+                        <option>Art</option>
+                        <option>Baby</option>
+                        <option>Book</option>
+                        <option>Business and Industry</option>
+                        <option>Camera and Photos</option>
+                        <option>Cell phones and Accessories</option>
+                        <option>Clothing , Shoes and Accessories</option>
+                        <option>Coins Paper Money</option>
+                    </select>
+
+                </div>
+            </div>
+            <button class="btn">Search</button>
+
+            <small>Advanced</small>
+        </div>
+
+
+    </main>
+
+    <hr>
+
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#"><i class="fa fa-heart"></i> Saved</a>
+        <a href="#" class="electronics-category">Electronics
+        <div class="electronics">
+
+            <!--Electronics Categories-->
+            <div class="main-electronics">
+                
+    
+                <h4>Most Popular Categories</h4>
+                <hr>
+                <!-- <br> -->
+                <a href="#">Smart Phones</a>
+                
+                <a href="#">Camera</a>
+                
+                <a href="#">Home Electronics</a>
+                
+                <a href="#">Laptop</a>
+                
+                <a href="#">Camera</a>
+                
+                <a href="#">Photos</a>
+                
+                <a href="#">Dell Accessories</a>
+                
+                
+    
+                
+                
+    
+    
+            </div>
+    
+            
+            <div class="other-electronics">
+    
+                <h4>More Categories</h4>
+                <hr>
+                <a href="#">Phones</a>
+                
+                <a href="#">Smart Camera</a>
+                
+                <a href="#">Electronics</a>
+                
+                <a href="#">ipads</a>
+                
+                <a href="#">Accessories</a>
+                
+                <a href="#">Tablets</a>
+                
+                <a href="#">Camera Drones</a>
+                
+    
+            </div>
+    
+            <img src="electronic.jpg">
+            
+        </div>
+    </a>
+        <a href="#">Motors</a>
+        <a href="#">Fashions</a>
+        <a href="#">Collectiable and Arts</a>
+        <a href="#">Sports</a>
+        <a href="#">Health & Beauty</a>
+        <a href="#">Industrial Equipment</a>
+        <a href="#">Home & Garden</a>
+        <a href="#">Deals</a>
+        <a href="#">Sell</a>
+    </div>
+
+
+    <div class="baner">
+        <div class="main">
+            <h2 class="big-text">Soccer<br />euphoria is here</h2>
+            <p class="small-text">
+                show your passion and take <br />amazing collectibles with you
+            </p>
+            <button class="btn-next">Go now!</button>
+        </div>
+    </div>
+    <hr />
+
+    <div class="explore-section">
+        <div class="row">
+            <a href="#">
+                <h2>Explore Popular Categories</h2>
+            </a><a href="#">
+                <h3 class="subH3">See all</h3>
+            </a><span><img src="arrow.png" width="20px"></span>
+        </div>
+
+        <div class="container-1">
+            <div class="explore-items">
+                <img src="s-l200.jpg" alt="">
+                <a href="#">
+                    <p>Sneakers</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (1).jpg" alt="">
+                <a href="#">
+                    <p>Korean beauty</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (2).jpg" alt="">
+                <a href="#">
+                    <p>Wristwatches</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (3).jpg" alt="">
+                <a href="#">
+                    <p>Fishing</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (4).jpg" alt="">
+                <a href="#">
+                    <p>Collectibles</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (5).jpg" alt="">
+                <a href="#">
+                    <p>Smartphones</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (6).jpg" alt="">
+                <a href="#">
+                    <p>Sell</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <a href="#">
+                <h2>Explore Popular Brand</h2>
+            </a><a href="#">
+                <h3 class="subH3">See all</h3>
+            </a><span><img src="arrow.png" width="20px"></span>
+        </div>
+        <div class="container-1">
+            <div class="explore-items">
+                <img src="s-l200 (7).jpg" alt="">
+                <a href="#">
+                    <p>Apple</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (8).jpg" alt="">
+                <a href="#">
+                    <p>Samsung</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (9).jpg" alt="">
+                <a href="#">
+                    <p>Sony</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (10).jpg" alt="">
+                <a href="#">
+                    <p>Ugreen</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (11).jpg" alt="">
+                <a href="#">
+                    <p>Xiaomi</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (12).jpg" alt="">
+                <a href="#">
+                    <p>Nike</p>
+                </a>
+            </div>
+            <div class="explore-items">
+                <img src="s-l200 (13).jpg" alt="">
+                <a href="#">
+                    <p>Born Pretty</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--Slider Daily Deals-->
+
+    <div class=" mainContainer">
+        <div class="row">
+            <a href="#">
+                <h2>Daily Deals</h2>
+            </a><a href="#">
+                <h3 class="subH3">See all</h3>
+            </a><span><img src="arrow.png" width="20px"></span>
+        </div>
+
+        <div class="wrapper" id="slider">
+            <div class="container">
+                <img class="imgBackground" src="s-l225 (10).jpg" alt="">
+                <h3>$58.99</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (11).jpg" alt="">
+                <h3>$230.00</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (12).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (13).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (14).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img class="imgBackground" src="s-l225 (10).jpg" alt="">
+                <h3>$58.99</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (11).jpg" alt="">
+                <h3>$230.00</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (12).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (13).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (14).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img class="imgBackground" src="s-l225 (10).jpg" alt="">
+                <h3>$58.99</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (11).jpg" alt="">
+                <h3>$230.00</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (12).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (13).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+            <div class="container">
+                <img src="s-l225 (14).jpg" alt="">
+                <h3>$44.50</h3>
+            </div>
+        </div>
+
+        <div class="arrow">
+            <img src="back.png" width="40px" id="left">
+            <img src="Right.png" width="40px" id="right">
+        </div>
+    </div>
+    <br>
+    </div>
+    <br><br><br><br><br>
+    <!--Banner 2-->
+    <div class="baner">
+        <div class="main">
+            <h2 class="big-text">Soccer<br />euphoria is here</h2>
+            <p class="small-text">
+                show your passion and take <br />amazing collectibles with you
+            </p>
+            <button class="btn-next">Go now!</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <div class="footer-bar">
+            <!-- Buy section in the footer -->
+            <div class="buy">
+                <h4>Buy</h4>
+                <a href="#">Registration</a></br>
+                <a href="#">eBay Money Back Guarantee</a></br>
+                <a href="#">Bidding & buying help</a></br>
+                <a href="#">Stores</a>
+            </div>
+            <!-- Sell Section in the Footer -->
+            <div class="sell-tool-apps">
+                <h4>Sell</h4>
+                <a href="#">Start Selling</a></br>
+                <a href="#">Learn to sell</a></br>
+                <a href="#">Affiliates</a>
+
+                <!-- tools and apps section in the footer  -->
+                <h4>Tools & apps</h4>
+                <a href="#">Developers</a></br>
+                <a href="#">Security Center</a></br>
+                <a href="#">Site map</a>
+            </div>
+
+            <!-- stay connected section in the footer -->
+            <div class="stay-connected">
+                <h4>Stay Connected</h4>
+                <a href="#">eBay's Blogs</a></br>
+                <span>
+                    <img src="facebook.png" width="20" height="20" alt="">
+                    <a href="#">Facebook</a>
+                </span>
+                <span><img src="twitter.png" width="20" height="20" alt=""><a href="#">Twitter</a></span>
+            </div>
+
+            <!-- About ebay section in the footer  -->
+            <div class="about-ebay">
+                <h4>About eBay</h4>
+                <a href="#">Company info</a></br>
+                <a href="#">News</a></br>
+                <a href="#">Investors</a></br>
+                <a href="#">Careers</a></br>
+                <a href="#">Government Relations</a></br>
+                <a href="#">Advertise with us</a></br>
+                <a href="#">Policies</a></br>
+                <a href="#">Verified Rights Owner (VeRO) Program</a>
+            </div>
+
+            <!-- resources and community section in the footer -->
+
+            <div class="resources-community">
+                <h4>Resources</h4>
+                <a href="#">Seller Information center</a></br>
+                <a href="#">Contact us</a>
+
+                <!-- Community section in the footer -->
+                <h4>Community</h4>
+                <a href="#">Annoucements</a></br>
+                <a href="#">Discussion boards</a></br>
+                <a href="#">eBay Givig Works</a>
+                <h4>eBay Sites</h4>
+
+                <!-- Drop down button in the footer for countries -->
+                <div class="dropdown">
+                    <button class="dropbtn"><img
+                            src="https://media.geeksforgeeks.org/wp-content/uploads/20200630132504/uflag.jpg" width="20"
+                            height="15"> United States</button>
+                    <div class="dropdown-content">
+                        <a href="#">Argentina</a>
+                        <a href="#">China</a>
+                        <a href="#">Malaysia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- copyright and terms and conditions section in the end of the page -->
+        <div class="copyright">
+            <p>Copyright © 1995-2022 eBay Inc. All Rights Reserved. <a href="#">Accessiblity</a><span>,</span>
+                <a href="#">User Agreement</a><span>,</span>
+                <a href="#">Privacy</a><span>,</span>
+                <a href="#">Payments Terms of Use</a><span>,</span>
+                <a href="#">Cookies</a><span>,</span>
+                <a href="#">Do not sell my personal Information</a><span> and </span>
+                <a href="#">AdChoice </a>
+            </p>
+
+        </div>
+    </footer>
+
+    <script>
+
+        //Watch list
+
+        function myWatchlist() {
+            document.getElementById("watchlist").innerHTML = "Please sign in to view items you are watching";
+            document.getElementById("watchlist").style.background = "white"
+            document.getElementById("watchlist").style.borderradius = "2px"
+            document.getElementById("watchlist").style.boxSizing = "border-box"
+            document.getElementById("watchlist").style.width = "20rem"
+            document.getElementById("watchlist").style.fontSize = "15px"
+            document.getElementById("watchlist").style.borderWidth = "1rem"
+
+        }
+
+        function watchlisthidden() {
+
+            document.getElementById("watchlist").innerHTML = "";
+
+        }
+
+
+        const left = document.getElementById("left");
+        const right = document.getElementById("right");
+
+        const carousel = document.getElementById("slider");
+
+        count = 0;
+        left.addEventListener("click", function (e) {
+            if (count > 0) {
+                count--;
+            }
+            console.log("left" + count);
+            if (count >= 0) {
+                carousel.style.right = count * 100 + "vw";
+            }
+        });
+        right.addEventListener("click", function (e) {
+            if (count < 3) {
+                count++;
+            }
+
+            if (count > 0 && count <= 2) {
+                carousel.style.right = count * 100 + "vw";
+            }
+        });
+
+
+    </script>
+
+
+
+</body>
+
+</html>
